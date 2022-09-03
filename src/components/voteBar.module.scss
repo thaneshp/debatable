@@ -1,0 +1,22 @@
+.progressBar {
+    width: 780px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.agree {
+    background: #74c48e !important;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.disagree {
+    background: #eb6e84 !important;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}

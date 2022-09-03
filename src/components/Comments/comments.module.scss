@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.CommentsLoadingwrapper {
+    // margin: 20px;
+    width: 400px;
+    // border: 2px solid blue;
+    margin: 0 auto;
+    // padding-bottom: 50%;
+    // align-items: center;
+    // justify-content: center;
+    // text-align: center;
+    // padding-right: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.CommentsLoadingwrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 400px;
+    height: 25px;
+    background: linear-gradient(rgb(236, 244, 255), rgba(255, 255, 255, 0.001)); /* transparent keyword is broken in Safari */
+}
+
+.CommentsLoadingwrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    height: 25px;
+    background: linear-gradient(rgba(255, 255, 255, 0.001), rgb(236, 244, 255) ); /* transparent keyword is broken in Safari */
+  }
+
+.spinners {
+    text-align: center;
+}

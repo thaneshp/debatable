@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 0 rem;
+    margin: 0 auto;
+    // border: 2px solid red;
+    padding-bottom: 5px;
+    float: right;
+    padding-right: 3.5%;
+}
+    
+.inner {
+    width: 341px;
+    margin: 0 auto;
+    margin-top: 1.0rem;
+    background: #ffffff;
+    box-shadow:  rgba(116,196,142, 0.3) 0px 3px 8px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.username {
+    padding-left: 3.5%;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.content {
+    margin: 5px;
+    width: 85%;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.spinners {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 8%;
+    text-align: center;
+    color: blue;
+
+}
+
+.deleteIcon {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+    outline: inherit;
+    float: right;
+
+
+}

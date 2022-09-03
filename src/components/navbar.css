@@ -1,0 +1,19 @@
+.cta {
+    background: blue;
+    border-radius: 20px;
+    color: white !important;
+}
+
+.logo {
+
+height: auto;
+width: auto;
+max-width: 150px;
+
+}
+
+.cta:hover {
+    background-color: rgb(12, 0, 116);
+    border-radius: 20px;
+    color: white !important;   
+}

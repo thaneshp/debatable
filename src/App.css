@@ -1,0 +1,4 @@
+.body {
+  min-height: calc(100% - 175px);
+  border: 10px solid transparent;
+}
